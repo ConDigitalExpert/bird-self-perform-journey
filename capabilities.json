@@ -1,0 +1,1263 @@
+{
+  "schemaVersion": "1.0.0",
+  "title": "From site to service",
+  "proposition": "The Bird self-perform advantage",
+  "reviewedAt": "2026-10-02",
+  "contentStatus": "Public capability evidence with illustrative project-value mechanisms",
+  "scopeStatus": "Illustrative campus · Project scope to confirm",
+  "lifecycleNote": "These twelve stages are overlapping workstreams, not a universal serial programme. The seven chapters are a client narrative rather than a Bird-published workflow.",
+  "focusNote": "Grey means not the current focus. It does not mean a scope is outside Bird. Use the role label to distinguish responsibilities.",
+  "valueMechanismNote": "Each value mechanism is an illustrative application to this campus, conditional on agreed scope and project conditions. It is not a measured result, project commitment or guarantee.",
+  "evidenceNote": "Sources are public Bird pages and Bird-hosted documents reviewed in the supplied evidence register. Evidence for capability and illustrative client-value mechanisms remain distinct.",
+  "testingNote": "B9 supports industrial high-voltage testing and commissioning as self-perform capability. B1 supports data-centre commissioning support. Neither establishes full data-centre IST, independent certification or owner-acceptance responsibility.",
+  "roleLabels": {
+    "self-perform": "Bird self-perform capability",
+    "delivery-support": "Bird delivery or support",
+    "external": "External responsibility",
+    "confirm": "Project allocation to confirm"
+  },
+  "lenses": [
+    {
+      "id": "schedule",
+      "label": "Schedule",
+      "qualification": "No project duration or acceleration is calculated or guaranteed"
+    },
+    {
+      "id": "cost",
+      "label": "Cost certainty",
+      "qualification": "No saving, fixed price or cost certainty level is promised"
+    },
+    {
+      "id": "risk",
+      "label": "Risk",
+      "qualification": "Technical interfaces and external dependencies remain"
+    },
+    {
+      "id": "quality",
+      "label": "Quality",
+      "qualification": "Inspection and acceptance obligations remain"
+    },
+    {
+      "id": "safety",
+      "label": "Safety",
+      "qualification": "Planning mechanism only; no incident-reduction claim"
+    },
+    {
+      "id": "coordination",
+      "label": "Coordination",
+      "qualification": "Actual responsibilities depend on the agreed project scope"
+    }
+  ],
+  "mechanismEvidence": {
+    "schedule": [
+      "B1",
+      "B2",
+      "B5",
+      "B6"
+    ],
+    "cost": [
+      "B2",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "risk": [
+      "B1",
+      "B2",
+      "B6"
+    ],
+    "quality": [
+      "B5",
+      "B8",
+      "B10"
+    ],
+    "safety": [
+      "B11"
+    ],
+    "coordination": [
+      "B2",
+      "B4",
+      "B6",
+      "B8"
+    ]
+  },
+  "chapters": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "headline": "From groundworks to critical systems",
+      "description": "See what Bird delivers directly",
+      "activeLabel": "Power infrastructure",
+      "defaultScopeId": "substations",
+      "scopeIds": [
+        "generation",
+        "powerlines",
+        "substations"
+      ],
+      "stageIds": [
+        "power"
+      ],
+      "sourceIds": [
+        "B1",
+        "B5"
+      ],
+      "sceneState": "Completed-campus preview",
+      "context": "The opening previews power infrastructure. Continue to planning to follow the overlapping delivery stages."
+    },
+    {
+      "id": "planning",
+      "label": "Planning",
+      "headline": "Buildability. Before breaking ground.",
+      "description": "Direct trade expertise, earlier in the plan",
+      "activeLabel": "Construction-led planning",
+      "defaultScopeId": "planning-design",
+      "scopeIds": [
+        "planning-design",
+        "permit-authority",
+        "generation",
+        "powerlines",
+        "substations",
+        "thermal-transfer"
+      ],
+      "stageIds": [
+        "define",
+        "permit",
+        "power",
+        "design-procure"
+      ],
+      "sourceIds": [
+        "B1",
+        "B2",
+        "B4",
+        "B6",
+        "B17",
+        "B19"
+      ],
+      "sceneState": "Site and future-building footprint",
+      "context": "Design, procurement, energy and approvals can progress together. Utility decisions and permit authority remain external."
+    },
+    {
+      "id": "civil",
+      "label": "Civil",
+      "headline": "Groundwork. Direct control.",
+      "description": "Connect below-ground work with the systems it receives",
+      "activeLabel": "Underground utilities",
+      "defaultScopeId": "utilities",
+      "scopeIds": [
+        "earthworks",
+        "utilities",
+        "concrete"
+      ],
+      "stageIds": [
+        "enabling",
+        "below-grade"
+      ],
+      "sourceIds": [
+        "B1",
+        "B5",
+        "B12"
+      ],
+      "sceneState": "Earthworks and below-ground cutaway",
+      "context": "Selecting a scope reveals its workface and retained inspection points. Actual delivery boundaries need agreement."
+    },
+    {
+      "id": "systems",
+      "label": "Systems",
+      "headline": "Critical systems. Connected delivery.",
+      "description": "Explore the trades inside the same facility",
+      "activeLabel": "Electrical",
+      "defaultScopeId": "electrical",
+      "scopeIds": [
+        "structure-enclosure",
+        "electrical",
+        "mechanical",
+        "hvac",
+        "telecom",
+        "thermal-transfer",
+        "white-space"
+      ],
+      "stageIds": [
+        "enclosure",
+        "plant",
+        "white-space"
+      ],
+      "sourceIds": [
+        "B1",
+        "B4",
+        "B5",
+        "B8",
+        "B14"
+      ],
+      "sceneState": "Enclosure and systems installation",
+      "context": "Only the selected scope is in colour. White-space deployment is a delivery offering; its full trade allocation is not established."
+    },
+    {
+      "id": "connections",
+      "label": "Connections",
+      "headline": "The advantage is in the connections",
+      "description": "Connect the trades that depend on each other",
+      "activeLabel": "Civil to electrical interface",
+      "defaultScopeId": "utilities",
+      "scopeIds": [
+        "utilities",
+        "electrical",
+        "concrete",
+        "mechanical",
+        "hvac",
+        "telecom",
+        "planning-design"
+      ],
+      "stageIds": [
+        "design-procure",
+        "below-grade",
+        "plant",
+        "white-space"
+      ],
+      "sourceIds": [
+        "B1",
+        "B4",
+        "B5",
+        "B6",
+        "B8"
+      ],
+      "sceneState": "Civil-to-electrical interface cutaway",
+      "context": "Potential value depends on agreed scope and project conditions. Internal interfaces, inspections and external approvals remain."
+    },
+    {
+      "id": "readiness",
+      "label": "Readiness",
+      "headline": "Ready is proven.",
+      "description": "Keep testing, commissioning support and acceptance distinct",
+      "activeLabel": "High-voltage testing",
+      "defaultScopeId": "hv-testing",
+      "scopeIds": [
+        "hv-testing",
+        "commissioning-support",
+        "owner-acceptance"
+      ],
+      "stageIds": [
+        "prove",
+        "handover"
+      ],
+      "sourceIds": [
+        "B1",
+        "B9",
+        "B10",
+        "B20"
+      ],
+      "sceneState": "Electrical testing and handover context",
+      "context": "Industrial HV testing is a documented self-perform capability. Full data-centre IST, independent commissioning authority and owner acceptance are separate responsibilities to establish."
+    },
+    {
+      "id": "expansion",
+      "label": "Next phase",
+      "headline": "Built for what comes next.",
+      "description": "Connect today's delivery to tomorrow's growth",
+      "activeLabel": "Expansion works",
+      "defaultScopeId": "expansion",
+      "scopeIds": [
+        "expansion",
+        "maintenance",
+        "planning-design"
+      ],
+      "stageIds": [
+        "handover",
+        "expand"
+      ],
+      "sourceIds": [
+        "B1",
+        "B3",
+        "B13",
+        "B18"
+      ],
+      "sceneState": "Operating facility and next-phase work area",
+      "context": "Expansion and general industrial maintenance are documented capabilities. Data-centre operation, IT ownership and service-level obligations are not established."
+    }
+  ],
+  "stages": [
+    {
+      "id": "define",
+      "number": 1,
+      "label": "Define and establish feasibility",
+      "chapterId": "planning",
+      "description": "Owner requirements, site constraints, specialist studies and delivery intent",
+      "role": "delivery-support",
+      "sourceIds": [
+        "B2",
+        "B7"
+      ],
+      "boundary": "Bird can contribute preconstruction expertise; feasibility conclusions and owner requirements remain project-specific"
+    },
+    {
+      "id": "permit",
+      "number": 2,
+      "label": "Plan and permit",
+      "chapterId": "planning",
+      "description": "Entitlement, environmental and construction approvals; stakeholder and utility gates",
+      "role": "external",
+      "sourceIds": [
+        "B17"
+      ],
+      "boundary": "Bird/Stack describes managing permitting in an adjacent modular offer; no data-centre permit authority or approval control is established"
+    },
+    {
+      "id": "power",
+      "number": 3,
+      "label": "Power and energy strategy",
+      "chapterId": "planning",
+      "description": "Generation, HV/MV routes, substations, grid and thermal interfaces",
+      "role": "self-perform",
+      "sourceIds": [
+        "B1",
+        "B6",
+        "B15"
+      ],
+      "boundary": "Infrastructure delivery does not establish energy availability, grid connection rights, utility approval or power pricing"
+    },
+    {
+      "id": "design-procure",
+      "number": 4,
+      "label": "Design, procure and fabricate",
+      "chapterId": "planning",
+      "description": "Buildability, BIM/VDC, long-lead releases, logistics and fabrication",
+      "role": "delivery-support",
+      "sourceIds": [
+        "B2",
+        "B4",
+        "B5",
+        "B6",
+        "B8",
+        "B19"
+      ],
+      "boundary": "Design responsibility, equipment selection, capacity and procurement commitments require project agreement"
+    },
+    {
+      "id": "enabling",
+      "number": 5,
+      "label": "Enabling works and civil",
+      "chapterId": "civil",
+      "description": "Access, earthworks, site services and construction workfaces",
+      "role": "self-perform",
+      "sourceIds": [
+        "B1",
+        "B5",
+        "B12"
+      ],
+      "boundary": "Project conditions, permitted work areas and actual direct-delivery split remain to confirm"
+    },
+    {
+      "id": "below-grade",
+      "number": 6,
+      "label": "Build below grade and foundations",
+      "chapterId": "civil",
+      "description": "Buried services, duct routes, excavation and concrete interfaces",
+      "role": "self-perform",
+      "sourceIds": [
+        "B1",
+        "B5",
+        "B12"
+      ],
+      "boundary": "Concrete formwork evidence does not establish every foundation, geotechnical or structural package"
+    },
+    {
+      "id": "enclosure",
+      "number": 7,
+      "label": "Structure and enclosure",
+      "chapterId": "systems",
+      "description": "Structural delivery, weather-tightness and equipment access",
+      "role": "delivery-support",
+      "sourceIds": [
+        "B1",
+        "B5"
+      ],
+      "boundary": "Civil/structural delivery is documented; whole steel and envelope self-performance is not established"
+    },
+    {
+      "id": "plant",
+      "number": 8,
+      "label": "Install plant and M&E",
+      "chapterId": "systems",
+      "description": "Electrical, mechanical, HVAC/refrigeration and thermal interfaces",
+      "role": "self-perform",
+      "sourceIds": [
+        "B1",
+        "B5",
+        "B8"
+      ],
+      "boundary": "Equipment supply, manufacturer warranties and the detailed installation split remain separate"
+    },
+    {
+      "id": "white-space",
+      "number": 9,
+      "label": "Fit out white space and controls",
+      "chapterId": "systems",
+      "description": "White space, telecom and operator controls, fire, security and IT interfaces",
+      "role": "delivery-support",
+      "sourceIds": [
+        "B1",
+        "B14"
+      ],
+      "boundary": "Telecom self-performance does not establish every controls, security, fire, rack or IT package"
+    },
+    {
+      "id": "prove",
+      "number": 10,
+      "label": "Test, commission and prove",
+      "chapterId": "readiness",
+      "description": "Package tests, commissioning support, integrated-test context and acceptance gates",
+      "role": "delivery-support",
+      "sourceIds": [
+        "B1",
+        "B9",
+        "B15",
+        "B20"
+      ],
+      "boundary": "Separate industrial HV testing from full data-centre IST, independent certification, utility energization and owner acceptance"
+    },
+    {
+      "id": "handover",
+      "number": 11,
+      "label": "Turn over, operate and maintain",
+      "chapterId": "readiness",
+      "description": "Handover, owner/operator readiness, maintenance and access",
+      "role": "confirm",
+      "sourceIds": [
+        "B1",
+        "B3",
+        "B9",
+        "B18"
+      ],
+      "boundary": "No project-specific operating SLA, training package, facilities operation, IT service or uptime obligation is established"
+    },
+    {
+      "id": "expand",
+      "number": 12,
+      "label": "Expand, retrofit and renew",
+      "chapterId": "expansion",
+      "description": "Live-site expansion, retained access, renewal and future end-of-life planning",
+      "role": "delivery-support",
+      "sourceIds": [
+        "B1",
+        "B3",
+        "B13"
+      ],
+      "boundary": "Specific renewal, decommissioning, circularity and disposal services require separate scope confirmation"
+    }
+  ],
+  "scopes": [
+    {
+      "id": "generation",
+      "label": "Generation",
+      "headline": "Connect generation construction with the campus plan",
+      "role": "self-perform",
+      "roleLabel": "Bird self-perform capability",
+      "documentedCapability": "Bird lists power generation within integrated self-perform services. Buffalo Atlee provides a specific generation-construction example.",
+      "boundary": "Technology, engineering, fuel, ownership, operation and power supply remain project-specific; construction capability is not an energy-supply commitment.",
+      "sourceIds": [
+        "B1",
+        "B6",
+        "B15"
+      ],
+      "chapterIds": [
+        "overview",
+        "planning"
+      ],
+      "stageIds": [
+        "power",
+        "design-procure",
+        "plant"
+      ],
+      "valueMechanisms": {
+        "schedule": "Sequence generation installation with electrical receiving works and the agreed energization plan",
+        "cost": "Define generation tie-ins and enabling works before releasing their packages",
+        "risk": "Make generation, utility and owner dependencies visible before interfaces are committed",
+        "quality": "Align installation checks with equipment requirements and electrical receiving criteria",
+        "safety": "Plan lifting, access and electrical work zones around adjacent campus activities",
+        "coordination": "Connect generation, civil and electrical teams at the campus connection points"
+      }
+    },
+    {
+      "id": "powerlines",
+      "label": "HV/MV powerlines",
+      "headline": "Carry the power route through the delivery plan",
+      "role": "self-perform",
+      "roleLabel": "Bird self-perform capability",
+      "documentedCapability": "Bird explicitly lists high- and medium-voltage powerlines within integrated self-perform services.",
+      "boundary": "Route rights, utility capacity, connection agreements, outages and energization approval are external or project-specific.",
+      "sourceIds": [
+        "B1",
+        "B9"
+      ],
+      "chapterIds": [
+        "overview",
+        "planning"
+      ],
+      "stageIds": [
+        "power",
+        "enabling",
+        "plant"
+      ],
+      "valueMechanisms": {
+        "schedule": "Align line-route workfaces with substation and civil readiness",
+        "cost": "Clarify route, crossing and termination scope before package release",
+        "risk": "Track utility and crossing dependencies alongside Bird-delivered work",
+        "quality": "Retain line-installation checks and termination acceptance at each receiving interface",
+        "safety": "Coordinate access and electrical exclusion zones along the power corridor",
+        "coordination": "Join powerline, substation and site-civil planning at each route interface"
+      }
+    },
+    {
+      "id": "substations",
+      "label": "Substations",
+      "headline": "Make the electrical receiving point a shared plan",
+      "role": "self-perform",
+      "roleLabel": "Bird self-perform capability",
+      "documentedCapability": "Bird lists substations within integrated self-perform services for mission-critical and data-centre delivery.",
+      "boundary": "Equipment supply, utility protection requirements, grid allocation and energization authority require agreement; delivery does not grant approval rights.",
+      "sourceIds": [
+        "B1",
+        "B9"
+      ],
+      "chapterIds": [
+        "overview",
+        "planning"
+      ],
+      "stageIds": [
+        "power",
+        "below-grade",
+        "plant",
+        "prove"
+      ],
+      "valueMechanisms": {
+        "schedule": "Connect substation civil readiness, equipment placement and electrical installation dates",
+        "cost": "Define equipment foundations, cable entries and installation boundaries together",
+        "risk": "Expose protection, utility and equipment dependencies before testing is planned",
+        "quality": "Carry inspection requirements from equipment receiving to installation and package tests",
+        "safety": "Coordinate heavy lifts, access routes and electrical work zones at the receiving point",
+        "coordination": "Connect civil, powerline, electrical and test-team information at one physical interface"
+      }
+    },
+    {
+      "id": "telecom",
+      "label": "Telecommunications",
+      "headline": "Keep communications routes connected to the build",
+      "role": "self-perform",
+      "roleLabel": "Bird self-perform capability",
+      "documentedCapability": "Bird lists telecommunications within its integrated self-perform services.",
+      "boundary": "Confirm fibre, network equipment, controls, security and operator IT boundaries; telecom capability does not establish ownership of every IT system.",
+      "sourceIds": [
+        "B1",
+        "B14"
+      ],
+      "chapterIds": [
+        "systems",
+        "connections"
+      ],
+      "stageIds": [
+        "design-procure",
+        "plant",
+        "white-space"
+      ],
+      "valueMechanisms": {
+        "schedule": "Align telecom route access with containment, enclosure and white-space readiness",
+        "cost": "Clarify pathway and termination allowances before adjacent installations close access",
+        "risk": "Make carrier, operator and equipment interfaces explicit before service connections",
+        "quality": "Retain pathway, labelling and agreed test records for the telecom scope",
+        "safety": "Plan telecom access around active electrical and overhead installation work",
+        "coordination": "Coordinate telecom routes with electrical, mechanical and operator connection points"
+      }
+    },
+    {
+      "id": "thermal-transfer",
+      "label": "Thermal energy transfer",
+      "headline": "Connect thermal interfaces to the campus systems",
+      "role": "self-perform",
+      "roleLabel": "Bird self-perform capability",
+      "documentedCapability": "Bird explicitly lists thermal-energy transfer within integrated self-perform services.",
+      "boundary": "Thermal network ownership, technology selection, operating conditions and energy outcomes remain project-specific; no efficiency result is implied.",
+      "sourceIds": [
+        "B1",
+        "B6"
+      ],
+      "chapterIds": [
+        "planning",
+        "systems"
+      ],
+      "stageIds": [
+        "power",
+        "design-procure",
+        "plant"
+      ],
+      "valueMechanisms": {
+        "schedule": "Align thermal route, plant connection and receiving-system readiness",
+        "cost": "Define thermal connection points and installation responsibilities before release",
+        "risk": "Expose external network and plant dependencies alongside the thermal package",
+        "quality": "Retain inspection and test requirements across buried, plant and building connections",
+        "safety": "Coordinate thermal installation access with civil and mechanical workfaces",
+        "coordination": "Connect site-civil, mechanical and energy-provider requirements at thermal interfaces"
+      }
+    },
+    {
+      "id": "earthworks",
+      "label": "Earthworks",
+      "headline": "Prepare the workfaces that follow",
+      "role": "self-perform",
+      "roleLabel": "Bird self-perform capability",
+      "documentedCapability": "Bird lists earthworks for data centres and earthmoving in its self-perform capability.",
+      "boundary": "Ground conditions, environmental constraints, disposal arrangements and the project-specific excavation scope require confirmation.",
+      "sourceIds": [
+        "B1",
+        "B5",
+        "B12"
+      ],
+      "chapterIds": [
+        "civil"
+      ],
+      "stageIds": [
+        "enabling",
+        "below-grade"
+      ],
+      "valueMechanisms": {
+        "schedule": "Sequence excavation and grading around utility and foundation workface releases",
+        "cost": "Bring delivery input to quantities, access and material-handling assumptions",
+        "risk": "Make ground and buried-service constraints visible before downstream crews mobilize",
+        "quality": "Retain agreed formation checks before the next trade receives the workface",
+        "safety": "Coordinate excavation access, plant movement and separation from adjacent activities",
+        "coordination": "Connect earthworks handovers to utility installation and concrete preparation"
+      }
+    },
+    {
+      "id": "utilities",
+      "label": "Underground utilities",
+      "headline": "Connect below-ground work to electrical readiness",
+      "role": "self-perform",
+      "roleLabel": "Bird self-perform capability",
+      "documentedCapability": "Bird explicitly lists buried utilities within integrated self-perform services.",
+      "boundary": "Confirm the utility types, routes and handover split. Inspections and receiving-trade acceptance remain required.",
+      "sourceIds": [
+        "B1",
+        "B5",
+        "B12"
+      ],
+      "chapterIds": [
+        "civil",
+        "connections"
+      ],
+      "stageIds": [
+        "enabling",
+        "below-grade",
+        "plant"
+      ],
+      "valueMechanisms": {
+        "schedule": "Align trench release, duct installation and electrical receiving workfaces",
+        "cost": "Resolve route, excavation and reinstatement boundaries before release",
+        "risk": "Identify buried crossings and receiving interfaces before access is closed",
+        "quality": "Retain utility inspection and as-built checks before backfill and handover",
+        "safety": "Coordinate trench access and adjacent plant movements with the installation sequence",
+        "coordination": "Connect civil and electrical planning at the actual duct and cable-entry interfaces"
+      }
+    },
+    {
+      "id": "concrete",
+      "label": "Concrete formwork",
+      "headline": "Carry concrete interfaces into systems planning",
+      "role": "self-perform",
+      "roleLabel": "Bird self-perform capability",
+      "documentedCapability": "Bird lists concrete formwork for mission-critical delivery and concrete in its broader self-perform offer.",
+      "boundary": "Confirm concrete package allocation. These sources do not establish every foundation, geotechnical, structural steel or enclosure scope.",
+      "sourceIds": [
+        "B1",
+        "B5"
+      ],
+      "chapterIds": [
+        "civil",
+        "connections"
+      ],
+      "stageIds": [
+        "below-grade",
+        "enclosure",
+        "plant"
+      ],
+      "valueMechanisms": {
+        "schedule": "Align concrete releases with service entries and equipment-support readiness",
+        "cost": "Resolve formwork, penetration and embedded-item responsibilities before pours",
+        "risk": "Expose service and equipment-interface requirements before concrete work is fixed",
+        "quality": "Retain pre-pour checks and agreed acceptance before following trades receive the area",
+        "safety": "Plan pours, access and temporary workfaces around adjacent installation activities",
+        "coordination": "Bring civil, electrical and mechanical requirements together at concrete interfaces"
+      }
+    },
+    {
+      "id": "electrical",
+      "label": "Electrical",
+      "headline": "Connect the electrical installation to its workfaces",
+      "role": "self-perform",
+      "roleLabel": "Bird self-perform capability",
+      "documentedCapability": "Bird explicitly lists electrical within integrated self-perform services; its broader offer includes electrical and instrumentation.",
+      "boundary": "Confirm package boundaries, equipment supply, protection/controls, utility roles and test responsibilities. Full IST and owner acceptance are separate.",
+      "sourceIds": [
+        "B1",
+        "B5",
+        "B8",
+        "B9"
+      ],
+      "chapterIds": [
+        "systems",
+        "connections"
+      ],
+      "stageIds": [
+        "design-procure",
+        "plant",
+        "white-space",
+        "prove"
+      ],
+      "valueMechanisms": {
+        "schedule": "Align electrical installation with released duct routes, rooms and equipment access",
+        "cost": "Bring field input to containment, termination and installation scope before release",
+        "risk": "Keep civil, OEM and commissioning dependencies visible in the electrical plan",
+        "quality": "Carry workmanship checks and traceable records into package testing",
+        "safety": "Coordinate isolation planning and electrical work zones with adjacent trades",
+        "coordination": "Connect electrical routes and receiving points with civil and mechanical teams"
+      }
+    },
+    {
+      "id": "mechanical",
+      "label": "Mechanical",
+      "headline": "Connect mechanical work from fabrication to site",
+      "role": "self-perform",
+      "roleLabel": "Bird self-perform capability",
+      "documentedCapability": "Bird lists mechanical as integrated self-perform capability and process mechanical in its broader offer.",
+      "boundary": "Confirm equipment supply, process requirements, fabrication capacity, installation split and manufacturer responsibilities.",
+      "sourceIds": [
+        "B1",
+        "B5",
+        "B8"
+      ],
+      "chapterIds": [
+        "systems",
+        "connections"
+      ],
+      "stageIds": [
+        "design-procure",
+        "plant",
+        "prove"
+      ],
+      "valueMechanisms": {
+        "schedule": "Align mechanical fabrication, delivery access and field installation workfaces",
+        "cost": "Resolve package connections and field-fit requirements before fabrication release",
+        "risk": "Identify equipment and adjoining-system dependencies before installation",
+        "quality": "Carry fabrication and installation checks through to agreed mechanical test records",
+        "safety": "Coordinate lifts and mechanical installation access with electrical and civil work",
+        "coordination": "Connect mechanical, electrical and fabrication information at shared plant interfaces"
+      }
+    },
+    {
+      "id": "hvac",
+      "label": "HVAC and refrigeration",
+      "headline": "Make cooling installation part of the shared sequence",
+      "role": "self-perform",
+      "roleLabel": "Bird self-perform capability",
+      "documentedCapability": "Bird explicitly lists HVAC and refrigeration within integrated self-perform services.",
+      "boundary": "Cooling design duty, redundancy, selected technology, controls, OEM obligations and operating performance require project confirmation.",
+      "sourceIds": [
+        "B1",
+        "B4",
+        "B8"
+      ],
+      "chapterIds": [
+        "systems",
+        "connections"
+      ],
+      "stageIds": [
+        "design-procure",
+        "plant",
+        "prove"
+      ],
+      "valueMechanisms": {
+        "schedule": "Align cooling installation with enclosure, power and plant-access readiness",
+        "cost": "Clarify cooling equipment connections and access provisions before release",
+        "risk": "Expose cooling, electrical and controls dependencies before functional-test planning",
+        "quality": "Retain agreed installation checks and evidence at cooling-system interfaces",
+        "safety": "Coordinate cooling-equipment lifts and access with adjacent overhead work",
+        "coordination": "Connect cooling layouts with electrical routes, mechanical services and controls"
+      }
+    },
+    {
+      "id": "white-space",
+      "label": "White-space deployment",
+      "headline": "Define the delivery boundary inside the hall",
+      "role": "delivery-support",
+      "roleLabel": "Bird delivery or support",
+      "documentedCapability": "Bird lists white-space deployment as part of its broader mission-critical delivery offer.",
+      "boundary": "The full self-perform split is not established. Confirm racks, containment, controls, fire/security, network and operator IT responsibilities.",
+      "sourceIds": [
+        "B1",
+        "B14"
+      ],
+      "chapterIds": [
+        "systems"
+      ],
+      "stageIds": [
+        "plant",
+        "white-space",
+        "prove"
+      ],
+      "valueMechanisms": {
+        "schedule": "Align white-space access with room readiness and released power and cooling interfaces",
+        "cost": "Define installation and owner-supplied equipment boundaries before fit-out release",
+        "risk": "Make operator, vendor and trade responsibilities visible at each hall interface",
+        "quality": "Agree receiving checks and records for the white-space package",
+        "safety": "Coordinate fit-out access around active plant and overhead installation activities",
+        "coordination": "Connect hall layouts with electrical, cooling, telecom and operator requirements"
+      }
+    },
+    {
+      "id": "commissioning-support",
+      "label": "Commissioning support",
+      "headline": "Prepare the evidence that readiness needs",
+      "role": "delivery-support",
+      "roleLabel": "Bird delivery or support",
+      "documentedCapability": "Bird explicitly lists commissioning support in its mission-critical and data-centre offer.",
+      "boundary": "Support does not establish full data-centre IST ownership, independent commissioning authority, certification or owner acceptance.",
+      "sourceIds": [
+        "B1",
+        "B9",
+        "B14"
+      ],
+      "chapterIds": [
+        "readiness"
+      ],
+      "stageIds": [
+        "design-procure",
+        "prove",
+        "handover"
+      ],
+      "valueMechanisms": {
+        "schedule": "Connect construction closeout and package-test evidence with the agreed commissioning sequence",
+        "cost": "Define support tasks, attendance and records before commissioning activities are released",
+        "risk": "Track missing evidence and unresolved interfaces before readiness reviews",
+        "quality": "Link installation records and outstanding items to agreed acceptance criteria",
+        "safety": "Coordinate test access and isolation interfaces with the responsible parties",
+        "coordination": "Bring construction, test-team and operator information together at readiness gates"
+      }
+    },
+    {
+      "id": "hv-testing",
+      "label": "High-voltage testing",
+      "headline": "Prove the agreed electrical package",
+      "role": "self-perform",
+      "roleLabel": "Bird self-perform capability",
+      "documentedCapability": "Bird’s 2025 MD&A identifies high-voltage testing and commissioning as industrial self-perform services.",
+      "boundary": "This is general industrial evidence. Confirm the data-centre electrical test package; it does not establish full IST, independent certification, utility energization or owner acceptance.",
+      "sourceIds": [
+        "B9",
+        "B20",
+        "B1"
+      ],
+      "chapterIds": [
+        "readiness"
+      ],
+      "stageIds": [
+        "plant",
+        "prove",
+        "handover"
+      ],
+      "valueMechanisms": {
+        "schedule": "Align the agreed HV test sequence with installation completion and access readiness",
+        "cost": "Define test boundaries, attendance and records before electrical package release",
+        "risk": "Separate package-test prerequisites from utility and owner approval gates",
+        "quality": "Retain test evidence and defect resolution against agreed electrical criteria",
+        "safety": "Coordinate test zones and isolation responsibilities before HV test activities",
+        "coordination": "Connect electrical installation records with the test team and receiving parties"
+      }
+    },
+    {
+      "id": "expansion",
+      "label": "Expansion works",
+      "headline": "Connect the next phase to the existing campus",
+      "role": "delivery-support",
+      "roleLabel": "Bird delivery or support",
+      "documentedCapability": "Bird lists data-centre expansion and describes work in existing and occupied environments.",
+      "boundary": "Confirm direct-delivery packages, live-site constraints and outage responsibilities. No capacity, uptime or expansion-date commitment is established.",
+      "sourceIds": [
+        "B1",
+        "B13",
+        "B3"
+      ],
+      "chapterIds": [
+        "expansion"
+      ],
+      "stageIds": [
+        "define",
+        "design-procure",
+        "expand"
+      ],
+      "valueMechanisms": {
+        "schedule": "Plan new workfaces around retained access and agreed live-site connection windows",
+        "cost": "Use existing-interface information to define the next-phase scope before release",
+        "risk": "Expose existing-asset and operator constraints before expansion tie-ins",
+        "quality": "Keep new-work inspections and existing-system receiving checks distinct",
+        "safety": "Separate expansion work areas from operating-site access and activities",
+        "coordination": "Connect original delivery knowledge with the operator and next-phase teams"
+      }
+    },
+    {
+      "id": "maintenance",
+      "label": "Maintenance capability",
+      "headline": "Keep maintenance scope connected to asset knowledge",
+      "role": "delivery-support",
+      "roleLabel": "Bird delivery or support",
+      "documentedCapability": "Bird describes industrial civil, mechanical, electrical and instrumentation maintenance, troubleshooting and sensitive upgrades.",
+      "boundary": "Confirm data-centre applicability and scope. No facilities-operation role, IT service, staffing level, operating SLA or uptime guarantee is established.",
+      "sourceIds": [
+        "B3",
+        "B18",
+        "B20"
+      ],
+      "chapterIds": [
+        "expansion"
+      ],
+      "stageIds": [
+        "handover",
+        "expand"
+      ],
+      "valueMechanisms": {
+        "schedule": "Plan agreed maintenance activities around operator access and service windows",
+        "cost": "Define asset condition, access and maintenance boundaries before the work is released",
+        "risk": "Identify existing-system and operator dependencies before intrusive work",
+        "quality": "Link maintenance records and agreed checks to the affected asset",
+        "safety": "Coordinate access and isolation responsibilities with the operating-site team",
+        "coordination": "Carry relevant installation and asset information into the agreed maintenance scope"
+      }
+    },
+    {
+      "id": "planning-design",
+      "label": "Planning and design coordination",
+      "headline": "Bring delivery knowledge into early decisions",
+      "role": "delivery-support",
+      "roleLabel": "Bird delivery or support",
+      "documentedCapability": "Bird describes preconstruction, buildability, BIM/VDC, procurement/logistics and specialist design-team coordination.",
+      "boundary": "Design partners and engineers retain their agreed roles. Architect/engineer-of-record status, feasibility conclusions and procurement commitments are project-specific.",
+      "sourceIds": [
+        "B2",
+        "B4",
+        "B6",
+        "B7",
+        "B8",
+        "B19"
+      ],
+      "chapterIds": [
+        "planning",
+        "connections",
+        "expansion"
+      ],
+      "stageIds": [
+        "define",
+        "permit",
+        "power",
+        "design-procure",
+        "expand"
+      ],
+      "valueMechanisms": {
+        "schedule": "Bring trade sequencing and procurement dependencies into early campus planning",
+        "cost": "Use delivery-team input to define quantities, scope boundaries and budget assumptions",
+        "risk": "Expose buildability, approval and interface uncertainties before package release",
+        "quality": "Connect coordinated design information to work-package inspection requirements",
+        "safety": "Review access, lifting areas and adjacent workfaces before site mobilization",
+        "coordination": "Connect design partners, trade teams and procurement around shared interfaces"
+      }
+    },
+    {
+      "id": "permit-authority",
+      "label": "Permit authority",
+      "headline": "Keep approvals visible as external gates",
+      "role": "external",
+      "roleLabel": "External responsibility",
+      "documentedCapability": "Bird/Stack collateral describes management of permitting in a modular offer. It does not establish a data-centre approval mandate; approval decisions remain external.",
+      "boundary": "Identify the actual authorities, required studies and applicant responsibilities. Managing a submission is not issuing or guaranteeing an approval.",
+      "sourceIds": [
+        "B17",
+        "B2"
+      ],
+      "chapterIds": [
+        "planning"
+      ],
+      "stageIds": [
+        "define",
+        "permit",
+        "power"
+      ],
+      "valueMechanisms": {
+        "schedule": "Show submission and approval dependencies before civil and utility release dates",
+        "cost": "Identify approval conditions that could change quantities or installation scope",
+        "risk": "Keep unresolved approval requirements visible in the project dependency plan",
+        "quality": "Connect approved requirements to the documents used for construction checks",
+        "safety": "Carry relevant permit conditions into workface and access planning",
+        "coordination": "Clarify who prepares, submits, reviews and approves each required application"
+      }
+    },
+    {
+      "id": "structure-enclosure",
+      "label": "Structure and enclosure",
+      "headline": "Keep the base build connected to installation access",
+      "role": "confirm",
+      "roleLabel": "Project allocation to confirm",
+      "documentedCapability": "Bird’s mission-critical offer includes civil and structural construction; concrete formwork is explicitly self-perform.",
+      "boundary": "Confirm steel, envelope and base-build package allocation. General structural delivery does not prove whole-shell self-performance.",
+      "sourceIds": [
+        "B1",
+        "B5"
+      ],
+      "chapterIds": [
+        "systems"
+      ],
+      "stageIds": [
+        "below-grade",
+        "enclosure",
+        "plant"
+      ],
+      "valueMechanisms": {
+        "schedule": "Align enclosure readiness and equipment access with plant installation",
+        "cost": "Define openings, supports and temporary-access responsibilities before release",
+        "risk": "Expose structural and weather-tightness dependencies in the systems-installation plan",
+        "quality": "Retain structural and enclosure checks before rooms are handed to installation teams",
+        "safety": "Coordinate structural work, lifting routes and systems access across shared areas",
+        "coordination": "Connect base-build information with concrete, mechanical and electrical interfaces"
+      }
+    },
+    {
+      "id": "owner-acceptance",
+      "label": "Owner acceptance",
+      "headline": "Keep the final acceptance decision explicit",
+      "role": "external",
+      "roleLabel": "External responsibility",
+      "documentedCapability": "Bird documents commissioning support and industrial HV testing; the reviewed evidence does not assign owner acceptance to Bird.",
+      "boundary": "Agree the owner/operator’s criteria and decision rights. Package tests, full IST, independent commissioning review and final acceptance are distinct.",
+      "sourceIds": [
+        "B1",
+        "B9"
+      ],
+      "chapterIds": [
+        "readiness"
+      ],
+      "stageIds": [
+        "prove",
+        "handover"
+      ],
+      "valueMechanisms": {
+        "schedule": "Make acceptance prerequisites visible before the planned handover gate",
+        "cost": "Define required evidence and unresolved-scope treatment before closeout",
+        "risk": "Keep open items and decision ownership visible until the owner’s acceptance process is complete",
+        "quality": "Map test and inspection records to the owner’s agreed acceptance criteria",
+        "safety": "Coordinate the transition from construction work zones to operator-controlled access",
+        "coordination": "Connect contractor records, commissioning review and the owner’s acceptance decision"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "B1",
+      "title": "Mission Critical & Data Centres",
+      "url": "https://www.bird.ca/what-we-do/mission-critical-and-data-centres/",
+      "evidenceSummary": "Lists integrated self-perform trades and broader mission-critical delivery, including white-space deployment, expansion and commissioning support.",
+      "boundary": "Does not establish project-specific labour allocation, local availability, full IST, independent commissioning authority or an outcome guarantee.",
+      "publisher": "Bird Construction",
+      "evidenceType": "Public Bird source",
+      "currency": "Reviewed 2026-10-02"
+    },
+    {
+      "id": "B2",
+      "title": "Pre-Construction / Early Contractor Involvement",
+      "url": "https://www.bird.ca/what-we-do/pre-construction-services/",
+      "evidenceSummary": "Describes preconstruction advice, procurement and logistics, integrated schedules, estimating and risk mitigation.",
+      "boundary": "Does not establish land acquisition, permit issuance, utility capacity or guaranteed procurement dates.",
+      "publisher": "Bird Construction",
+      "evidenceType": "Public Bird source",
+      "currency": "Reviewed 2026-10-02"
+    },
+    {
+      "id": "B3",
+      "title": "Industrial Maintenance",
+      "url": "https://www.bird.ca/what-we-do/industrial-maintenance/",
+      "evidenceSummary": "Describes industrial civil, mechanical, electrical and instrumentation maintenance, troubleshooting, ongoing work and sensitive upgrades.",
+      "boundary": "Data-centre maintenance scope, staffing, operating SLA, IT services and uptime obligations require confirmation.",
+      "publisher": "Bird Construction",
+      "evidenceType": "Public Bird source",
+      "currency": "Reviewed 2026-10-02"
+    },
+    {
+      "id": "B4",
+      "title": "BIM/VDC",
+      "url": "https://www.bird.ca/what-we-do/bim-vdc/",
+      "evidenceSummary": "Describes BIM/VDC coordination, visualization, schedule planning and coordinated mechanical and electrical information.",
+      "boundary": "Does not establish architect or engineer-of-record responsibility or live integration with this concept.",
+      "publisher": "Bird Construction",
+      "evidenceType": "Public Bird source",
+      "currency": "Reviewed 2026-10-02"
+    },
+    {
+      "id": "B5",
+      "title": "Self-Perform",
+      "url": "https://www.bird.ca/what-we-do/self-perform/",
+      "evidenceSummary": "Lists directly delivered trades and fabrication; connects self-performance with control over schedule, costs and quality.",
+      "boundary": "Qualitative Bird positioning does not establish quantified project improvement or comparative proof.",
+      "publisher": "Bird Construction",
+      "evidenceType": "Public Bird source",
+      "currency": "Reviewed 2026-10-02"
+    },
+    {
+      "id": "B6",
+      "title": "Future Energy Hub",
+      "url": "https://www.bird.ca/what-we-do/future-energy/",
+      "evidenceSummary": "Connects self-perform expertise with early planning, construction-led sequencing and critical-path trade delivery alongside technology and engineering partners.",
+      "boundary": "Does not establish ownership of every technology, power supply, grid allocation, energy prices or carbon outcomes.",
+      "publisher": "Bird Construction",
+      "evidenceType": "Public Bird source",
+      "currency": "Reviewed 2026-10-02"
+    },
+    {
+      "id": "B7",
+      "title": "Construction Management",
+      "url": "https://www.bird.ca/what-we-do/delivery-models/construction-management/",
+      "evidenceSummary": "Describes cost-benefit analysis, lifecycle costing, value engineering, tendering and project controls within construction management.",
+      "boundary": "Supports commercial planning, not a project estimate or promised saving.",
+      "publisher": "Bird Construction",
+      "evidenceType": "Public Bird source",
+      "currency": "Reviewed 2026-10-02"
+    },
+    {
+      "id": "B8",
+      "title": "Fabrication",
+      "url": "https://www.bird.ca/what-we-do/fabrication/",
+      "evidenceSummary": "Describes specialty skids, electrical houses, water modules and process piping, with team communication from design through commissioning.",
+      "boundary": "Does not promise a factory slot, standard data-centre module, lead-time saving or off-site proportion.",
+      "publisher": "Bird Construction",
+      "evidenceType": "Public Bird source",
+      "currency": "Reviewed 2026-10-02"
+    },
+    {
+      "id": "B9",
+      "title": "2025 MD&A, printed p. 6",
+      "url": "https://cdn.bird.ca/2026/03/11192248/2025-MDA.pdf",
+      "evidenceSummary": "The industrial section identifies high-voltage testing and commissioning among self-perform services; buildings coverage includes data-centre lifecycle delivery.",
+      "boundary": "Industrial electrical testing does not establish full data-centre IST, independent commissioning authority, certification or owner acceptance.",
+      "publisher": "Bird Construction",
+      "evidenceType": "Public Bird source",
+      "currency": "Reviewed 2026-10-02"
+    },
+    {
+      "id": "B10",
+      "title": "Quality",
+      "url": "https://www.bird.ca/what-we-do/quality/",
+      "evidenceSummary": "Describes job-specific quality-control planning, quality management and assurance procedures.",
+      "boundary": "Do not assume every division or project holds the same certification, or guarantee defect-free work or first-pass acceptance.",
+      "publisher": "Bird Construction",
+      "evidenceType": "Public Bird source",
+      "currency": "Reviewed 2026-10-02"
+    },
+    {
+      "id": "B11",
+      "title": "Safety",
+      "url": "https://www.bird.ca/who-we-are/safety/",
+      "evidenceSummary": "Describes pre-project safety planning, onboarding, hazard management, monitoring and workforce participation.",
+      "boundary": "Does not establish that self-performance causes fewer injuries or comparative safety superiority.",
+      "publisher": "Bird Construction",
+      "evidenceType": "Public Bird source",
+      "currency": "Reviewed 2026-10-02"
+    },
+    {
+      "id": "B12",
+      "title": "Civil Infrastructure",
+      "url": "https://www.bird.ca/what-we-do/civil-infrastructure/",
+      "evidenceSummary": "Describes underground services, earthworks, concrete, hydro work, drilling, blasting and site servicing.",
+      "boundary": "Does not establish a specific crew allocation or permit mandate.",
+      "publisher": "Bird Construction",
+      "evidenceType": "Public Bird source",
+      "currency": "Reviewed 2026-10-02"
+    },
+    {
+      "id": "B13",
+      "title": "Mission-critical project-experience landing page",
+      "url": "https://www.bird.ca/project-experience/mission-critical-and-data-centres/",
+      "evidenceSummary": "Describes mission-critical greenfield work, occupied environments, fit-outs, expansion, prefabrication, early design collaboration and as-built scanning.",
+      "boundary": "Does not establish a complete self-perform trade list or live-site uptime commitment.",
+      "publisher": "Bird Construction",
+      "evidenceType": "Public Bird source",
+      "currency": "Reviewed 2026-10-02"
+    },
+    {
+      "id": "B14",
+      "title": "Data Centres brochure, older undated collateral",
+      "url": "https://www.bird.ca/docs/default-source/default-document-library/bird_data-centre-brochure.pdf?v=2.0",
+      "evidenceSummary": "Older data-centre collateral describes Canem and complementary electrical, mechanical, communications, technology, commissioning, white-space and maintenance services.",
+      "boundary": "Older undated collateral has lower currency confidence. Prefer B1 for current headline scope; subsidiary experience does not establish every Bird team’s capability.",
+      "publisher": "Bird Construction",
+      "evidenceType": "Public Bird source",
+      "currency": "Historical or older collateral"
+    },
+    {
+      "id": "B15",
+      "title": "Buffalo Atlee Wind",
+      "url": "https://www.bird.ca/project-experience/project/buffalo-atlee-wind/",
+      "evidenceSummary": "A specific wind project records Bird as prime EPC contractor, self-performing a majority of the work, with testing, commissioning and energization in its delivery scope.",
+      "boundary": "Development, ownership and operation are attributed to Capstone. This does not establish Bird energy-supply ownership or data-centre power availability.",
+      "publisher": "Bird Construction",
+      "evidenceType": "Public Bird source",
+      "currency": "Reviewed 2026-10-02"
+    },
+    {
+      "id": "B16",
+      "title": "Bell / Sherwood announcement, 14 May 2026",
+      "url": "https://www.bird.ca/news/2026/05/14/bell-names-construction-partners-for-300-mw-saskatchewan-ai-fabric-facility-and-announces-long-term-partnership-with-bird-construction/",
+      "evidenceSummary": "The May 2026 announcement identifies Bird as a construction partner for the planned Sherwood AI facility and names outside design and site-services roles.",
+      "boundary": "Forward-looking project selection is not completion. Named partners demonstrate that integrated delivery is not wholly self-performed.",
+      "publisher": "Bird Construction",
+      "evidenceType": "Public Bird source",
+      "currency": "Reviewed 2026-10-02"
+    },
+    {
+      "id": "B17",
+      "title": "Bird and Stack: Building Tomorrow, November 2024, printed p. 4",
+      "url": "https://www.bird.ca/docs/default-source/microsites-docs/stack-modular/bird-and-stack---building-tomorrow-11-07-2024.pdf",
+      "evidenceSummary": "Bird and Stack modular collateral describes management of feasibility, site selection, permitting, design, engineering and estimating.",
+      "boundary": "This is an adjacent-sector offer. Data-centre applicability is unconfirmed; management does not confer approval authority or establish land acquisition.",
+      "publisher": "Bird Construction",
+      "evidenceType": "Public Bird source",
+      "currency": "Historical or older collateral"
+    },
+    {
+      "id": "B18",
+      "title": "The Centre for Building Performance",
+      "url": "https://www.bird.ca/what-we-do/the-centre-for-building-performance/",
+      "evidenceSummary": "Describes building-performance analytics for energy use, equipment anomalies and emissions-related monitoring.",
+      "boundary": "Does not establish live integration with this concept, a data-centre operating SLA, a DCIM replacement or efficiency outcomes.",
+      "publisher": "Bird Construction",
+      "evidenceType": "Public Bird source",
+      "currency": "Reviewed 2026-10-02"
+    },
+    {
+      "id": "B19",
+      "title": "Delivery Models",
+      "url": "https://www.bird.ca/what-we-do/delivery-models/",
+      "evidenceSummary": "Describes delivery models and specialist design-team assembly, including design-build and EPC.",
+      "boundary": "Integrated delivery models are not themselves proof of whole-scope self-performance.",
+      "publisher": "Bird Construction",
+      "evidenceType": "Public Bird source",
+      "currency": "Reviewed 2026-10-02"
+    },
+    {
+      "id": "B20",
+      "title": "2023 Annual Report, printed p. 39",
+      "url": "https://www.bird.ca/docs/default-source/investors-relations/q4-and-full-year-2023/bird-annual-report-2023-web-version-final.pdf",
+      "evidenceSummary": "The 2023 annual report describes Sigma Power MV/HV maintenance, commissioning, protection/control and SCADA, plus fabrication-related electrical integration.",
+      "boundary": "Historical and business-specific evidence; current deployment requires confirmation. Prefer B9 for newer self-perform electrical testing evidence.",
+      "publisher": "Bird Construction",
+      "evidenceType": "Public Bird source",
+      "currency": "Historical or older collateral"
+    }
+  ],
+  "callToAction": {
+    "label": "Map Bird's scope to your project",
+    "description": "Confirm delivery boundaries, local capability, external responsibilities and the evidence needed for your project."
+  }
+}
